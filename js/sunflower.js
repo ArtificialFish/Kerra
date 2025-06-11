@@ -7,7 +7,7 @@ const play = async () => {
     play.style.background = "#c97314";
     play.disabled = "disabled";
     
-    var music = new Audio("sunflower.mp3");
+    var music = new Audio("../assets/sunflower.mp3");
     music.play(); // 0
 
     play.style.animation = "fadeOut 5.1s 1.3s linear forwards"; // ends at 6.4s

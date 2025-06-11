@@ -7,7 +7,7 @@ window.onload = function() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
             let img = document.createElement("img");
-            img.src = "../assets/kerraJigsaw/blank.jpg";
+            img.src = "./assets/kerraJigsaw/blank.jpg";
             img.style.width = "3.2rem";
             img.style.height = "4.8rem";
 
@@ -32,7 +32,7 @@ window.onload = function() {
 
     for (let i = 0; i < shuffled.length; i++) {
         let img = document.createElement("img");
-        img.src = "../assets/kerraJigsaw/" + shuffled[i] + ".jpg";
+        img.src = "./assets/kerraJigsaw/" + shuffled[i] + ".jpg";
         img.style.width = "3.2rem";
         img.style.height = "4.8rem";
     
@@ -47,7 +47,7 @@ window.onload = function() {
     }
 
     var img = document.createElement("img");
-    img.src = "../assets/kerraJigsaw/blank.jpg";
+    img.src = "./assets/kerraJigsaw/blank.jpg";
     img.style.width = "3.2rem";
     img.style.height = "4.8rem";
     
