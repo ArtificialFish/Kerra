@@ -1,0 +1,46 @@
+body {
+    background-color: #5cc8ff;
+}
+
+#board {
+    width: 16rem;
+    height: 24rem;
+    border: 5px solid #d3d3d3;
+    border-radius: 5px;
+    margin: 1rem auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    text-align: center;
+    height: 4rem;
+}
+
+#heart{
+    background: #f45b69;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 100%;
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 4rem;
+    width: 4rem;
+    margin: auto;
+    display: none;
+}
+
+#heart:hover {
+    background-color: #ef1a2c;
+}
+
+#pieces {
+    width: 41.6rem;
+    height: 9.6rem;
+    border: 5px solid #d3d3d3;
+    border-radius: 5px;
+    margin: 1rem auto;
+    display: flex;
+    flex-flow: row wrap;
+}
